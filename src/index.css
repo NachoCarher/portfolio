@@ -70,6 +70,7 @@ h1 {
 /* Estilo para cada una de las secciones que va a contener la pagina */
 section{
     margin-top: 8rem;
+    height: 100vh;
 }
 
 /* Cada seccion tiene 2 hijos, h2 y h5 */
