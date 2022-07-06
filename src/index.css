@@ -132,7 +132,7 @@ img {
 
 /* Para poder dar respuesta a consultas de tablets */
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .container {
         width: var(--container-width-md);
     }
@@ -147,7 +147,7 @@ img {
 
 /* Para poder dar respuesta a consultas de smartphones */
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
     .container {
         width: var(--container-width-sm);
     }
