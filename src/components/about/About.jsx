@@ -43,7 +43,7 @@ const About = () => {
           </div>
 
           <p>
-            My name is Ignacio and I am currently finishing my studies in the degree of Computer Engineering at the University of Granada and I am open to new projects.
+            My name is Ignacio, I am currently finishing my studies in the degree of Computer Engineering at the University of Granada and I am open to new projects.
           </p>
 
           <p>
