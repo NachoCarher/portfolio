@@ -11,11 +11,8 @@ const sendEmail = (e) => {
   e.preventDefault();
 
   emailjs.sendForm('service_ir2afui', 'template_bu1776t', form.current, 'SvRcw6vDFSmSI7Edx')
-    .then((result) => {
-        console.log(result.text);
-    }, (error) => {
-        console.log(error.text);
-    });
+
+  e.target.reset()
 };
 
   return (
