@@ -1,6 +1,6 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
+import IMG1 from '../../assets/pexels-pixabay-270404.jpg'
 
 
 const data = [
@@ -8,8 +8,8 @@ const data = [
     id: 1,
     image: IMG1,
     title: 'My Portfolio Template',
-    github: 'https://github.com',
-    demo: "https://dribbble.com/Alien_pixels"
+    github: 'https://github.com/NachoCarher/portfolio',
+    demo: "https://nachocarher.github.io/portfolio/"
   }
 ]
 
