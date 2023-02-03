@@ -1,6 +1,7 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/pexels-pixabay-270404.jpg'
+import IMG1 from '../../assets/portfolio-img-sm.PNG'
+import IMG2 from '../../assets/gericht-restaurant-img-sm.PNG'
 
 
 const data = [
@@ -10,6 +11,13 @@ const data = [
     title: 'My Portfolio Template',
     github: 'https://github.com/NachoCarher/portfolio',
     demo: "https://nachocarher.github.io/portfolio/"
+  }, 
+  {
+    id: 2,
+    image: IMG2,
+    title: 'Gericht Restaurant',
+    github: 'https://github.com/NachoCarher/gericht-restaurant',
+    demo: "https://www.google.com"
   }
 ]
 
@@ -17,7 +25,7 @@ const Portfolio = () => {
   return (
     <section id='portfolio'>
       <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h2>Projects</h2>
 
       <div className="container portfolio__container">
         {
