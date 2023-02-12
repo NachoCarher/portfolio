@@ -2,7 +2,7 @@ import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/portfolio-img-sm.PNG'
 import IMG2 from '../../assets/gericht-restaurant-img-sm.PNG'
-
+import IMG3 from '../../assets/pokemon-finder.png'
 
 const data = [
   {
@@ -18,6 +18,13 @@ const data = [
     title: 'Gericht Restaurant',
     github: 'https://github.com/NachoCarher/gericht-restaurant',
     demo: "https://nachocarher-gericht-restaurant.netlify.app/"
+  },
+  {
+    id: 3,
+    image: IMG3,
+    title: 'Pokemon Finder',
+    github: 'https://github.com/NachoCarher/react-buscador-pokemon',
+    demo: "https://nachocarher-pokemon-finder.netlify.app/"
   }
 ]
 
@@ -37,8 +44,8 @@ const Portfolio = () => {
                 </div>
                 <h3>{title}</h3>
                 <div className="portfolio__item-cta">
-                  <a href={github} className='btn' target='_blank'>Github</a>
-                  <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                  <a href={github} className='btn' target='_blank' rel="noreferrer">Github</a>
+                  <a href={demo} className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
                 </div>
               </article>
             )
