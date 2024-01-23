@@ -2,8 +2,8 @@
     display: grid;
     justify-content: center;
     gap: 2.5rem;
-    grid-template-columns: repeat(3, 1fr);
-
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 800px;
 }
 
 .portfolio__item {
@@ -20,12 +20,22 @@
 }
 
 .portfolio__item-image {
-    border-radius: 1.5rem;
+    border-radius: 1.5rem;    
     overflow: hidden;
+    /*la imagen tiene que tener una altura maxima*/
+    max-height: 165px;
+
 }
 
 .portfolio__item h3 {
-    margin: 1.2rem 0 2rem;
+    margin: 1.2rem 0 1rem;
+}
+
+.portfolio__item p {
+    color: var(--color-light);
+    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+    min-height: 80px;
 }
 
 .portfolio__item-cta {

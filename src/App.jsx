@@ -15,9 +15,9 @@ const App = props => {
         <Header />
         <Nav />
         <About />
+        <Portfolio />
         <Experience />
         <Services />
-        <Portfolio />
         {/*<Testimonials />*/}
         <Contact />
         <Footer />

@@ -1,30 +1,24 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio-img-sm.PNG'
 import IMG2 from '../../assets/gericht-restaurant-img-sm.PNG'
 import IMG3 from '../../assets/pokemon-finder.png'
 
 const data = [
   {
     id: 1,
-    image: IMG1,
-    title: 'My Portfolio Template',
-    github: 'https://github.com/NachoCarher/portfolio',
-    demo: "https://nachocarher.github.io/portfolio/"
-  }, 
-  {
-    id: 2,
     image: IMG2,
     title: 'Gericht Restaurant',
     github: 'https://github.com/NachoCarher/gericht-restaurant',
-    demo: "https://nachocarher-gericht-restaurant.netlify.app/"
+    demo: "https://nachocarher-gericht-restaurant.netlify.app/",
+    description : "Restaurant webpage made with React following Javascript Mastery's YouTube tutorial."
   },
   {
-    id: 3,
+    id: 2,
     image: IMG3,
     title: 'Pokemon Finder',
     github: 'https://github.com/NachoCarher/react-buscador-pokemon',
-    demo: "https://nachocarher-pokemon-finder.netlify.app/"
+    demo: "https://nachocarher-pokemon-finder.netlify.app/",
+    description : "Pokemon finder made with React"
   }
 ]
 
@@ -36,13 +30,14 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
         {
-          data.map(({ id, image, title, github, demo }) => {
+          data.map(({ id, image, title, github, demo, description }) => {
             return (
               <article key={id} className='portfolio__item'>
                 <div className="portfolio__item-image">
                   <img src={image} alt={title} />
                 </div>
                 <h3>{title}</h3>
+                <p>{description}</p>
                 <div className="portfolio__item-cta">
                   <a href={github} className='btn' target='_blank' rel="noreferrer">Github</a>
                   <a href={demo} className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
