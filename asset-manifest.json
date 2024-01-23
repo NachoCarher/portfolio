@@ -1,19 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.dba8650f.css",
-    "main.js": "/portfolio/static/js/main.e155eb99.js",
+    "main.css": "/portfolio/static/css/main.cec44b0e.css",
+    "main.js": "/portfolio/static/js/main.9f713df2.js",
     "static/media/me3.PNG": "/portfolio/static/media/me3.ee7cd3f6ac4c587e45c9.PNG",
     "static/media/me-about2.jpg": "/portfolio/static/media/me-about2.4c382b0270e0e8d3d839.jpg",
     "static/media/cv.pdf": "/portfolio/static/media/cv.e5f8f6d4bf3fc1409b64.pdf",
-    "static/media/pokemon-finder.png": "/portfolio/static/media/pokemon-finder.12aba2bcbe99b7eb0665.png",
+    "static/media/pokemon-finder.png": "/portfolio/static/media/pokemon-finder.97a0b72f45f66d196a7b.png",
     "static/media/gericht-restaurant-img-sm.PNG": "/portfolio/static/media/gericht-restaurant-img-sm.b2b7d2efe060df8fe079.PNG",
-    "static/media/portfolio-img-sm.PNG": "/portfolio/static/media/portfolio-img-sm.67e9b6bba06a58e265ae.PNG",
     "index.html": "/portfolio/index.html",
-    "main.dba8650f.css.map": "/portfolio/static/css/main.dba8650f.css.map",
-    "main.e155eb99.js.map": "/portfolio/static/js/main.e155eb99.js.map"
+    "main.cec44b0e.css.map": "/portfolio/static/css/main.cec44b0e.css.map",
+    "main.9f713df2.js.map": "/portfolio/static/js/main.9f713df2.js.map"
   },
   "entrypoints": [
-    "static/css/main.dba8650f.css",
-    "static/js/main.e155eb99.js"
+    "static/css/main.cec44b0e.css",
+    "static/js/main.9f713df2.js"
   ]
 }
